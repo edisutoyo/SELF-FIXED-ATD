@@ -5,6 +5,24 @@ Technical Debt (TD) refers to the long-term costs incurred when developers prior
 
 We empirically study self-fixed ATD, where the introducer also repays the debt, and contrast it with non-self-fixed ATD in large Apache open-source projects. We reconstruct ATD lifecycles by tracing Jira artifacts to version-control history to identify introduction and repayment points and attribute developer roles. We address three research questions on the prevalence of self-fixed ATD, time-to-fix differences between self-fixed and non--self-fixed items, and how factors related to code change and collaboration metrics relate to repayment speed. Using descriptive statistics, non-parametric tests, and survival analysis, we show that self-fixed and non--self-fixed ATD exhibit distinct repayment dynamics and differences in how changes are shared on ATD-affected files. In particular, non--self-fixed ATD is more likely to remain unresolved longer when changes are spread across many developers. These results provide actionable guidance for maintainers to identify high-risk ATD items and to reduce handoff costs by increasing introducer involvement when possible and documenting the design rationale during repayment.
 
+## Structure of the Replication Package
+
+```text
+├── code
+│   ├── RQ1
+│   │   ├── fig5_boxplot originator_vs_fixer_per_issue_WITH-OTHERS.py
+│   │   └── fig6_boxplot-intro-fixer-others.py
+│   ├── RQ2
+│   │   ├── fig16-18_km_rq2_for_sample_data-NON-SELF-FIXED.py
+│   │   ├── fig7-8_km_rq2_for_sample_data.py
+│   │   └── fig9-12_km_rq2_for_sample_data_by_indicator.py
+│   └── RQ3
+│       ├── fig19_plot_rq3_boxplots.py
+│       └── fig20_seniority_introducer_fixer.py
+└── dataset
+    ├── ATD-FINAL-DATASET.csv
+    └── ATD-FINAL-DATASET-TRACED.csv
+```
 
 
 ## Contents
