@@ -41,3 +41,21 @@ To reproduce the results, run the scripts in this folder by following the instru
 ```
 python "<script_name>.py"
 ```
+
+## Citation
+
+If you use this dataset to support your research and publish a paper, we encourage you to cite the following BibTex in your publication:
+
+```
+@article{sutoyo2026selffixedatd,
+  title={The Dangers of Non--Self-Fixed Architecture Technical Debt and Its Impact on Time-to-Fix},
+  author={Sutoyo, Edi and Avgeriou, Paris and Capiluppi, Andrea},
+  year={2026}
+}
+```
+
+
+## Contact
+
+- Please use the following email addresses if you have questions:
+    - :email: <e.sutoyo@rug.nl>
